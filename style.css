@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(7, 33, 120);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#numbers-container {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(60, 117, 140);
+    padding: 12px;
+    border-radius: 25px;
+    display: inline-block;
+    width: 80%;
+    margin-left: 9%;
+}
+
+.numbers {
+    background-color: rgb(7, 33, 120);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 2px solid rgb(122, 187, 31);
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+    margin: 2px;
+}
